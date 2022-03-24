@@ -67,7 +67,7 @@ public class Mergesort {
 		
 		// if there is more than one element in the array split it
 		if (n > 1) {
-			
+			runCount++;
 			// create array B that contains the first half of array A
 			int[]B = new int[Math.floorDiv(n, 2)];
 			for (int i = 0; i < Math.floorDiv(n, 2); i++) {

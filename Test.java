@@ -23,7 +23,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		// list of cases to test (first value is always dummy)
-		int[] testCases = {0,0,1,2,3,4,5,6,7,8,9,10};
+		int[] testCases = {0,2,8,16,32,64,96,128,160,192,224,256};
 		
 		//test all of the test cases
 		for(int i:testCases) {
